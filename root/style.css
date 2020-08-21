@@ -1,0 +1,192 @@
+@media (max-width: 700px) {
+  body {
+    background: #d7eff0;
+  }
+  .header-container {
+    background: rgb(49, 66, 66);
+    background: linear-gradient(
+      114deg,
+      rgba(49, 66, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 86%,
+      rgba(200, 232, 84, 1) 86%
+    );
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 4rem;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .store-title {
+    font-family: "Alata", sans-serif;
+    color: #c8e854;
+    font-size: 2rem;
+  }
+  .search-div {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .search-input {
+    padding: 1rem;
+    width: 70%;
+    border: 0px solid;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .search-button {
+    padding: 1rem;
+    border: 0px solid;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    background-color: #cf5242;
+  }
+  .items-place {
+    font-family: "Roboto Mono", monospace;
+
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    padding-left: 7vw;
+  }
+
+  .item_image {
+    width: 100%;
+  }
+  .item_slot {
+    width: 30%;
+    float: left;
+    padding: 3px;
+    margin: 1px;
+  }
+  .item_name {
+    display: flex;
+    justify-content: center;
+    word-break: break-word;
+  }
+  a {
+    text-decoration: none;
+    color: #f15642;
+  }
+  .item_price {
+    display: flex;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .footer {
+    display: flex;
+    text-align: center;
+    background-color: #c4d6d6;
+    width: 100%;
+    height: 3rem;
+    font-family: "Alata", sans-serif;
+    float: right;
+  }
+
+  .twitter {
+    width: 15%;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+}
+/* --------------------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+
+@media (min-width: 600px) {
+  body {
+    background: #d7eff0;
+  }
+  .header-container {
+    background: rgb(49, 66, 66);
+    background: linear-gradient(
+      114deg,
+      rgba(49, 66, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 86%,
+      rgba(200, 232, 84, 1) 86%
+    );
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 4rem;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .store-title {
+    font-family: "Alata", sans-serif;
+    color: #c8e854;
+    font-size: 2rem;
+  }
+  .search-div {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+  }
+  .search-input {
+    padding: 1rem;
+    width: 70%;
+    border: 0px solid;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .search-button {
+    padding: 1rem;
+    border: 0px solid;
+    border-radius: 0px 5px 5px 0px;
+    color: #ffffff;
+    background-color: #cf5242;
+  }
+  .items-place {
+    font-family: "Roboto Mono", monospace;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    padding-left: 15vw;
+  }
+
+  .item_image {
+    width: 100%;
+  }
+  .item_slot {
+    width: 20%;
+    float: left;
+    padding: 3px;
+    margin: 1px;
+  }
+  .item_name {
+    display: flex;
+    justify-content: center;
+    word-break: break-word;
+  }
+  a {
+    text-decoration: none;
+    color: #f15642;
+  }
+  .item_price {
+    display: flex;
+    justify-content: center;
+    word-break: break-word;
+  }
+  .footer {
+    display: flex;
+    text-align: center;
+    background-color: #c4d6d6;
+    width: 100%;
+    height: 3rem;
+    font-family: "Alata", sans-serif;
+    float: right;
+  }
+
+  .twitter {
+    width: 15%;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+}
