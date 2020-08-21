@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+.header-container{ 
+    
+    background-color: aqua;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+}
+.header-container{ 
+    
+    background-color: rgb(197, 211, 211);
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+}
+/*continue to try mobile first*/
