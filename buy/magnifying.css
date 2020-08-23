@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  z-index: 3;
+  border: 1px solid rgb(48, 47, 47);
+  border-radius: 50%;
+  cursor: none;
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  pointer-events: none;
+}
+div .image:hover .img-magnifier-glass {
+  opacity: 1;
+  pointer-events: initial;
+}
