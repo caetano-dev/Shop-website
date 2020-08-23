@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="buy.css" />
+    <link rel="stylesheet" href="magnifying.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Mono:ital@1&family=Russo+One&display=swap"
       rel="stylesheet"
@@ -12,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
       rel="stylesheet"
     />
-    <title>Store</title>
+    <title>Buy</title>
   </head>
   <body>
     <div>
@@ -20,9 +21,19 @@
         <img class="icon" src="../images/icon.png" />
         <div class="store-title">Chothing Shop</div>
       </div>
-      <img src="..//images/tshirt.jpg" alt="Item" class="item_image" />
+      <div class="img-magnifier-container">
+        <div class="image">
+      <img
+        src="..//images/tshirt.jpg"
+        alt="Item"
+        id="item_image"
+        class="item_image"
+      />
+      </div>
+      <h1 class="item_name">Cool T-shirt</h1>
+      <h2 class="item_price">$100,00</h2>
+      <button type="submit">Buy</button>
     </div>
-
     <div class="footer">
       <footer>
         <div class="socials">
@@ -31,6 +42,6 @@
         </div>
       </footer>
     </div>
-    <script type="text/javascript" src="buy.js"></script>
+    <script type="text/javascript" src="magnifying.js"></script>
   </body>
 </html>
