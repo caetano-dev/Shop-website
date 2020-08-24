@@ -1,3 +1,4 @@
+/* ========================================================== */
 @media (max-width: 700px) {
   body {
     background: #d7eff0;
@@ -25,18 +26,14 @@
     color: #c8e854;
     font-size: 2rem;
   }
-
-  .items-place {
-    font-family: "Roboto Mono", monospace;
-
-    align-items: center;
+  .image_div {
+    display: flex;
     justify-content: center;
-    margin-right: 14px;
-    padding-left: 7vw;
   }
 
   .item_image {
-    width: 50%;
+    width: 20rem;
+    border-radius: 5px;
   }
   .item_slot {
     width: 30%;
@@ -44,28 +41,133 @@
     padding: 3px;
     margin: 1px;
   }
-  .item_name {
+  .item_name,
+  .item_price {
+    font-family: "Roboto Mono", monospace;
     display: flex;
     justify-content: center;
     word-break: break-word;
+    margin-top: -5px;
+  }
+
+  button {
+    width: 100%;
+    height: 2rem;
+    background-color: #f15642;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid;
+    outline: none;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #ee8175;
+    cursor: pointer;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: "Alata", sans-serif;
   }
   a {
     text-decoration: none;
     color: #f15642;
   }
-  .item_price {
-    display: flex;
-    justify-content: center;
-    word-break: break-word;
+
+  .twitter {
+    width: 15%;
   }
-  .footer {
+  .socials {
     display: flex;
-    text-align: center;
-    background-color: #c4d6d6;
+    align-items: center;
+  }
+}
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+@media (min-width: 700px) {
+  body {
+    background: #d7eff0;
+  }
+  .header-container {
+    background: rgb(49, 66, 66);
+    background: linear-gradient(
+      114deg,
+      rgba(49, 66, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 72%,
+      rgba(241, 86, 66, 1) 86%,
+      rgba(200, 232, 84, 1) 86%
+    );
+    height: 7rem;
     width: 100%;
-    height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    width: 100px;
+    padding: 0px 20px 0px 20px;
+  }
+  .store-title {
     font-family: "Alata", sans-serif;
-    float: right;
+    color: #c8e854;
+    font-size: 2rem;
+  }
+
+  .img-container {
+    border: 1px solid rgb(47, 0, 255);
+    display: inline-flex;
+    width: 100%;
+  }
+  .image_div {
+    border: 1px solid rgb(255, 0, 179);
+  }
+
+  .item_image {
+    width: 20rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+  }
+
+  .item_name {
+    font-family: "Roboto Mono", monospace;
+    word-break: normal;
+    border: 1px solid;
+    /*fix the box with name/price*/
+  }
+
+  .item_price {
+    font-family: "Roboto Mono", monospace;
+    word-break: keep-all;
+  }
+
+  button {
+    width: 100%;
+    height: 2rem;
+    background-color: #f15642;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid;
+    outline: none;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #ee8175;
+    cursor: pointer;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-family: "Alata", sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: #f15642;
   }
 
   .twitter {
