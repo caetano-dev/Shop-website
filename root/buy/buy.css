@@ -1,5 +1,10 @@
 /* ========================================================== */
 @media (max-width: 700px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   body {
     background: #d7eff0;
   }
@@ -26,6 +31,10 @@
     color: #c8e854;
     font-size: 2rem;
   }
+  .image_container {
+    margin-top: 1rem;
+    border: 1 solid #e20000;
+  }
   .image_div {
     display: flex;
     justify-content: center;
@@ -34,6 +43,8 @@
   .item_image {
     width: 20rem;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(138, 137, 137);
+    margin-bottom: 1rem;
   }
   .item_slot {
     width: 30%;
@@ -49,14 +60,23 @@
     word-break: break-word;
     margin-top: -5px;
   }
-
+  .price_wapper {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .price_div {
+    width: 10rem;
+    height: 4rem;
+  }
   button {
-    width: 100%;
     height: 2rem;
+    width: 100%;
     background-color: #f15642;
     font-family: "Roboto Mono", monospace;
     font-size: 1rem;
     text-align: center;
+    margin-top: 0.5rem;
     border: 1px solid;
     outline: none;
     transition: 0.5s;
@@ -89,6 +109,11 @@
 /* ==================================================== */
 /* ==================================================== */
 @media (min-width: 700px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   body {
     background: #d7eff0;
   }
@@ -116,7 +141,7 @@
     font-size: 2rem;
   }
 
-  .img-container {
+  .image_container {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
@@ -149,8 +174,8 @@
   }
 
   button {
-    /* width: 10%; */
     display: flex;
+    justify-content: center;
     height: 2rem;
     background-color: #f15642;
     font-family: "Roboto Mono", monospace;
@@ -161,7 +186,6 @@
     outline: none;
     padding: 0rem 25% 0rem 25%;
     margin: 0rem 5rem 0rem 5rem;
-    justify-content: center;
     transition: 0.5s;
   }
   button:hover {

@@ -8,7 +8,7 @@ for (let i = 0; i < 7; i++) {
 
   const item_name = document.createElement("a");
   item_name.setAttribute("class", "item_name");
-  item_name.setAttribute("href", "../buy/buy.html");
+  item_name.setAttribute("href", "./buy/buy.html");
   item_name.innerHTML = "Cool T-Shirt";
 
   const item_price = document.createElement("span");

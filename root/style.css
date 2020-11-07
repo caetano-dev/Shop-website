@@ -1,4 +1,10 @@
 @media (max-width: 700px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
   body {
     background: #d7eff0;
   }
@@ -96,6 +102,11 @@
 /* --------------------------------------------------------------------- */
 
 @media (min-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
   body {
     background: #d7eff0;
   }
