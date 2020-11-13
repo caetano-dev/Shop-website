@@ -23,7 +23,7 @@
     align-items: center;
   }
   .icon {
-    width: 4rem;
+    width: 10rem;
     padding: 0rem 2rem 0rem 2rem;
   }
   .store-title {
@@ -33,7 +33,6 @@
   }
   .image_container {
     margin-top: 1rem;
-    border: 1 solid #e20000;
   }
   .image_div {
     display: flex;
@@ -132,7 +131,7 @@
     align-items: center;
   }
   .icon {
-    width: 4rem;
+    width: 10rem;
     padding: 0rem 2rem 0rem 2rem;
   }
   .store-title {

@@ -23,8 +23,8 @@
     align-items: center;
   }
   .icon {
-    width: 4rem;
-    padding: 0rem 2rem 0rem 2rem;
+    width: 6rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
   }
   .store-title {
     font-family: "Alata", sans-serif;
@@ -125,7 +125,7 @@
     align-items: center;
   }
   .icon {
-    width: 4rem;
+    width: 10rem;
     padding: 0rem 2rem 0rem 2rem;
   }
   .store-title {
